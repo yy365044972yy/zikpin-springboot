@@ -24,4 +24,16 @@ public class demoController {
     public String index() {
         return "index";
     }
+
+    @RequestMapping("/resume")
+    public String resume() {
+        return "resume";
+
+    }
+    @RequestMapping("/play")
+    public String play() {
+        return "play";
+
+    }
+
 }
